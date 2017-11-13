@@ -11,19 +11,19 @@
 //
 
 var wif = '';		// Posting Private Key Below
-var author='';		// registered account name without @
-var devID='';		// RingAir Device ID
-var parentPermlink='ringair-portable-device-for-environmental-monitoring-big-data-on-blockchain-first-prototype'; //	post permalink only, post about the project, device and user
-var parentAuthor= 'best-buy';	// author of the post without @
+var author = '';	// registered account name without @
+var devID = '';		// RingAir Device ID
+var parentPermlink = 'ringair-portable-device-for-environmental-monitoring-big-data-on-blockchain-first-prototype'; //	post permalink only, post about the project, device and user
+var parentAuthor = 'best-buy';	// author of the post without @
 
-//	do not edit below
+//	Do not edit below
 var geo = process.argv[2];
 var co2 = process.argv[3];
 var tvoc = process.argv[4];
 var temp = process.argv[5];
-var title='RingAir Data';
-var body='GEO|CO2|TVOC|Temp\r\n-|-|-|-\r\n'+geo+'|'+co2+'|'+tvoc+'|'+temp+'';
-var jsonMetadata='{"tags":["ringair-data"],"app":"RingAir/'+devID+'"}';
+var title = 'RingAir Data';
+var body = 'GEO|CO2|TVOC|Temp\r\n-|-|-|-\r\n'+geo+'|'+co2+'|'+tvoc+'|'+temp+'';
+var jsonMetadata = '{"tags":["ringair-data"],"app":"RingAir/'+devID+'"}';
 var steem = require('steem');
 
 console.log('RingAir Data to Blockchain v0.0.1 by @eaposztrof');
