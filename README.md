@@ -1,6 +1,19 @@
 # steemit-stuffs
 Here are the [![steemit-logo-25px.png](https://steemitimages.com/DQmemVjTFX7eS4pF7yffisS9UroNKiSjYtN53q8gx1keSRM/steemit-logo-25px.png) steem<sup>❤</sup>](https://steemit.com/trending/steem-promo) related helpers created by me freely avaiable for the community
 
+## RingAir Data to Blockchain v0.0.1
+Requirements: Node.js + steem.js
+
+    npm install steem --save
+
+Usage:
+
+    node ringair.savedata.js <GEO> <CO2> <TVOC> <Temp>
+
+Example of use:
+
+    node ringair.savedata.js "47.4850296,19.0766376" "400.16" "0.16" "26.16"
+
 ## Footer messages
 [![steemit-logo-25px.png](https://steemitimages.com/DQmemVjTFX7eS4pF7yffisS9UroNKiSjYtN53q8gx1keSRM/steemit-logo-25px.png) steem<sup>❤</sup>](https://steemit.com/trending/steem-promo) 
 
